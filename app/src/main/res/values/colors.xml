@@ -1,5 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+    <!-- Cores primárias -->
+    <color name="primary_blue">#4285F4</color> <!-- Azul principal (fundo da tela inicial) -->
+    <color name="primary_text">#000000</color> <!-- Texto preto -->
+    <color name="primary_white">#FFFFFF</color> <!-- Branco -->
+
+    <!-- Cores secundárias -->
+    <color name="secondary_gray">#B0BEC5</color> <!-- Fundo cinza dos componentes -->
+    <color name="secondary_light_gray">#CFD8DC</color> <!-- Cinza mais claro para bordas ou detalhes -->
+    <color name="secondary_red">#FF6F61</color> <!-- Vermelho para corações/vidas -->
+    <color name="secondary_gold">#F9A825</color> <!-- Amarelo ouro para moedas -->
+    <color name="secondary_yellow">#FFC107</color> <!-- Amarelo para chaves -->
+
+    <!-- Outros -->
+    <color name="background_color">#E3F2FD</color> <!-- Fundo claro de componentes, se necessário -->
+    <color name="button_google">#FFFFFF</color> <!-- Fundo branco do botão de login Google -->
+    <color name="button_google_border">#DDDDDD</color> <!-- Borda do botão Google -->
 </resources>

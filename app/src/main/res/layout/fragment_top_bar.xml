@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:padding="8dp"
+    android:background="@color/primary_white">
+
+    <!-- Moedas -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="@drawable/rounded_background"
+        android:padding="8dp"
+        android:layout_marginEnd="8dp">
+
+        <ImageView
+            android:id="@+id/imgMoedas"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/ic_moeda"
+            android:contentDescription="Moedas" />
+
+        <TextView
+            android:id="@+id/txtMoedas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="03"
+            android:layout_marginStart="4dp"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:gravity="center_vertical" />
+    </LinearLayout>
+
+    <!-- Chaves -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="@drawable/rounded_background"
+        android:padding="8dp"
+        android:layout_marginEnd="8dp">
+
+        <ImageView
+            android:id="@+id/imgChaves"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/ic_chave"
+            android:contentDescription="Chaves" />
+
+        <TextView
+            android:id="@+id/txtChaves"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="03"
+            android:layout_marginStart="4dp"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:gravity="center_vertical" />
+    </LinearLayout>
+
+    <!-- Vidas -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="@drawable/rounded_background"
+        android:padding="8dp">
+
+        <ImageView
+            android:id="@+id/imgVidas"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/ic_vida"
+            android:contentDescription="Vidas" />
+
+        <TextView
+            android:id="@+id/txtVidas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3/3"
+            android:layout_marginStart="4dp"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:gravity="center_vertical" />
+    </LinearLayout>
+</LinearLayout>

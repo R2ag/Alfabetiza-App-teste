@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_estudos"
+        android:icon="@drawable/ic_livro"
+        android:title="Estudos" />
+
+    <item
+        android:id="@+id/nav_conquistas"
+        android:icon="@drawable/ic_ranking"
+        android:title="Conquistas" />
+
+    <item
+        android:id="@+id/nav_jogos"
+        android:icon="@drawable/ic_jogos"
+        android:title="Jogos" />
+
+    <item
+        android:id="@+id/nav_perfil"
+        android:icon="@drawable/ic_perfil"
+        android:title="Perfil" />
+</menu>
