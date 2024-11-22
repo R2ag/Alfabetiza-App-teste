@@ -11,6 +11,9 @@
     <color name="secondary_red">#FF6F61</color> <!-- Vermelho para corações/vidas -->
     <color name="secondary_gold">#F9A825</color> <!-- Amarelo ouro para moedas -->
     <color name="secondary_yellow">#FFC107</color> <!-- Amarelo para chaves -->
+    <color name="green">#4CAF50</color> <!-- Amarelo para chaves -->
+
+    green
 
     <!-- Outros -->
     <color name="background_color">#E3F2FD</color> <!-- Fundo claro de componentes, se necessário -->

@@ -35,6 +35,7 @@ dependencies {
 
     implementation (libs.retrofit)
     implementation (libs.converter.gson)
+    implementation ("com.google.android.exoplayer:exoplayer:2.19.0")
 
 
     implementation(libs.appcompat)
